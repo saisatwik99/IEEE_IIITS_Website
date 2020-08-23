@@ -628,6 +628,14 @@ banner
   height: 100vh;
   max-width: 100%;
 }
+.img-header{
+  background-image: url("../images/letter_bg_03.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+
 
 .main-banner .caption {
   text-align: center;
@@ -645,6 +653,36 @@ banner
   font-weight: 800;
   color: #fff;
   letter-spacing: 0.5px;
+}
+#text {
+	display: inline-block;
+	color: #fff;
+  border-right: 3px solid #ed563b;
+  position: fixed; height: auto; margin: auto;
+  left: 553px;
+}
+
+@media (max-width: 768px) {
+  #text{
+    position: fixed; height: auto; margin: auto;
+    left: 109px;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1024px)  {
+  #text{
+    position: fixed; height: auto; margin: auto;
+    left: 375px;
+  }
+
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1600px)  {
+  #text{
+    position: fixed; height: auto; margin: auto;
+    left: 447px;
+  }
+
 }
 
 .main-banner .caption h2 {
@@ -1251,3 +1289,7 @@ responsive
     margin-left: 130px;
   }
 }
+
+
+
+
