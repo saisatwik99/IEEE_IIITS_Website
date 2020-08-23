@@ -147,7 +147,7 @@ body {
 
 .section-heading {
   text-align: center;
-  margin-top: 140px;
+  margin-top: 120px;
   margin-bottom: 80px;
 }
 
@@ -169,6 +169,32 @@ body {
 .section-heading img {
   margin: 20px auto;
 }
+
+.section-heading .social-icons {
+  padding: 20px;
+}
+
+.section-heading ul {
+  display: inline-flex;
+}
+
+.section-heading ul li a i {
+  font-size: 42px;
+  padding: 10px;
+}
+
+.section-heading ul li a {
+  color: #232d39;
+  transition: all .3s;
+}
+
+.section-heading ul li a:hover {
+  color: #ed563b;
+}
+
+
+
+
 
 .dark-bg h2 {
   color: #fff;
@@ -1043,79 +1069,11 @@ contact
 */
 
 #contact-us {
-  margin-top: 140px;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
-#contact-us .container-fluid .col-lg-6 {
-  padding: 0px;
-}
 
-#contact-us .contact-form {
-  padding: 80px;
-  background-image: url(../images/contact-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#contact-us .contact-form #contact {
-  background-color: #fff;
-  padding: 40px;
-  border-radius: 5px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  color: #7a7a7a;
-  font-size: 13px;
-  border: 1px solid #ddd;
-  background-color: #fff;
-  width: 100%;
-  height: 40px;
-  outline: none;
-  line-height: 40px;
-  padding: 0px 10px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  margin-bottom: 30px;
-}
-
-.contact-form textarea {
-  height: 150px;
-  resize: none;
-}
-
-.contact-form ::-webkit-input-placeholder { /* Edge */
-  color: #7a7a7a;
-}
-
-.contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #7a7a7a;
-}
-
-.contact-form ::placeholder {
-  color: #7a7a7a;
-}
-
-.contact-form button {
-  display: inline-block;
-  font-size: 13px;
-  padding: 11px 17px;
-  background-color: #ed563b;
-  color: #fff;
-  text-align: center;
-  font-weight: 400;
-  text-transform: uppercase;
-  transition: all .3s;
-  border: none;
-  outline: none;
-  margin-top: -8px;
-}
-
-.contact-form button:hover {
-  background-color: #f9735b;
-}
 
 
 
@@ -1291,5 +1249,10 @@ responsive
 }
 
 
-
-
+.connectus {
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+}
