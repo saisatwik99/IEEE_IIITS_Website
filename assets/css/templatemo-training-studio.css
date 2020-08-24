@@ -686,6 +686,7 @@ banner
   border-right: 3px solid #ed563b;
   position: fixed; height: auto; margin: auto;
   left: 553px;
+  font-size: 25px;
 }
 
 @media (max-width: 768px) {
@@ -778,7 +779,7 @@ subscribe
 
 #call-to-action {
   padding: 120px 0px;
-  background-image: url(../images/cta-bg.jpg);
+  background-color: #2F4F4F;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

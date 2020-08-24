@@ -1,4 +1,4 @@
-var _CONTENT = [ "Teach", "Learn", "Create"];
+var _CONTENT = [  "Learn..", "Create..", "Explore.."];
 
 // Current sentence being processed
 var _PART = 0;
@@ -23,7 +23,7 @@ function Type() {
 		clearInterval(_INTERVAL_VAL);
 		setTimeout(function() {
 			_INTERVAL_VAL = setInterval(Delete, 100);
-		}, 1000);
+		}, 1500);
 	}
 }
 
