@@ -1,2 +1,5 @@
 # IEEE-IIITSricity.github.io
-Official Website of IEEE IIIT Sricity
+A repository for the Official Website of IEEE IIIT Sricity
+Many more to go..
+To be updates soon...
+Stay tuned....
